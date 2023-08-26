@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: Comic sans ms;
+}
+
+.information {
+    border-bottom: 2px solid black;
+    padding: 0rem 1rem 1rem 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.information h1 {
+    font-weight: bold;
+}
+
+.information .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3rem;
+    margin-top: 1rem;
+}
+
+.information .info h3 {
+    font-weight: 500;
+}
+
+.education {
+    margin: 1rem;
+}
+
+.education h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.education .info{
+    margin-top: 0.5rem;
+}
+
+.education .term {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.education .term .course {
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.education .term .time {
+    font-weight: 500;
+    position: absolute;
+    right: 15px;
+}
+.tc {
+    margin: 1rem;
+}
+.tc h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+.tc .info{
+    margin-top: 0.5rem;
+}
+.tc .info .term{
+    display: flex;
+    align-items: center;
+}
+.tc .info .term i{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+.tc .info .term h3{
+    font-weight: 500;
+}
+.tc .info .term h3 span{
+    font-weight: bold;
+}
+
+.projects {
+    margin: 1rem;
+}
+
+.projects h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.projects .info{
+    margin-top: 0.5rem;
+}
+
+.projects .term {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.projects .info .term h3{
+    font-weight: 500;
+}
+.projects .info .term h3 span{
+    font-weight: bold;
+}
+
+
+@media(max-width:900px){
+    html{
+        font-size: 85%;
+    }
+}
+@media(max-width:800px){
+    .information .info {
+        column-gap: 2rem;
+    }
+}
+@media(max-width:750px){
+    .information .info {
+        flex-direction: column;
+        column-gap: 3rem;
+        margin-top: 0.5rem;
+    }
+    .information .info .lines{
+        display: none;
+    }
+
+}
