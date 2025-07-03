@@ -24,7 +24,7 @@ const Resume = () => {
                             <p className="italic font-bold text-md hidden sm:block">2021-2025</p>
                         </div>
                         <p className="block sm:hidden text-lg">2021-2025</p>
-                        <p className="text-lg">7.7 CGPA</p>
+                        <p className="text-lg">7.8 CGPA</p>
                     </li>
                     {/* School  */}
                     <li className="mt-5 ml-5">
@@ -44,16 +44,20 @@ const Resume = () => {
                 <p className="w-full bg-black text-white p-2 font-semibold text-2xl rounded-md">Skills</p>
                 <ul className="list-disc space-y-2.5 mt-2">
                     <li className="ml-5">
-                        <p className="text-lg"><span className="text-2xl font-semibold">Frontend</span> : jQuery, React.js, Tailwind, Bootstrap </p>
+                        <p className="text-lg"><span className="text-2xl font-semibold">Development</span> : Next/React Js, ASP .NET, Node/Express js, Fast API, REST API  </p>
                     </li>
                     <li className="ml-5">
-                        <p className="text-lg"><span className="text-2xl font-semibold">Backend</span> : Express js, Next js, PUG, PHP, Python</p>
+                        <p className="text-lg"><span className="text-2xl font-semibold">Programming</span> : Python, Javascript, C , C# </p>
                     </li>
                     <li className="ml-5">
-                        <p className="text-lg"><span className="text-2xl font-semibold">Database</span> : MongoDB, MySQL, PostgreSQL </p>
+                        <p className="text-lg"><span className="text-2xl font-semibold">Database</span> : MongoDB, MySQL,
+                            Microsoft SQl Server, PostgreSQL </p>
                     </li>
                     <li className="ml-5">
-                        <p className="text-lg"><span className="text-2xl font-semibold">Other</span> : Git, Postman, Photoshop, Illustrator, After Effects </p>
+                        <p className="text-lg"><span className="text-2xl font-semibold">AI / ML</span> : Predictive models, Probabilitic inference, Tensorflow </p>
+                    </li>
+                    <li className="ml-5">
+                        <p className="text-lg"><span className="text-2xl font-semibold">Other</span> : Git/Github, Postman, Abode Photoshop, Illustrator </p>
                     </li>
                 </ul>
             </section>
@@ -63,25 +67,22 @@ const Resume = () => {
                 <p className="w-full bg-black text-white p-2 font-semibold text-2xl rounded-md">Projects</p>
                 <ul className="list-disc space-y-2.5 mt-2">
                     <li className="ml-5">
-                        <p className="text-2xl font-semibold">Education and Restaurant Websites</p>
-                        <p className="text-lg">I created two single-page websites using pure CSS, Express js, PUG engine, and MongoDB. (Without any framework)</p>
-                    </li>
-                    <li className="ml-5">
-                        <p className="text-2xl font-semibold">Weather Application</p>
-                        <p className="text-lg">This web-app provides real-time weather updates with detailed analysis. It is built using React js, Bootstrap, Tailwind css, and OpenWeatherMap API.</p>
-                    </li>
-                    <li className="ml-5">
-                        <p className="text-2xl font-semibold">Online voting system</p>
-                        <p className="text-lg">A web-based application that allows users to securely log in and cast their vote; it also includes an admin panel to manage the system. I built this using HTML, CSS, Bootstrap, PHP, and MySQL.</p>
-                    </li>
-                    <li className="ml-5">
-                        <p className="text-2xl font-semibold">House price prediction using ML</p>
-                        <p className="text-lg">It is a regression machine learning model that predicts house prices based on given price history. I used various python libraries along with the jupyter Notebook platform.</p>
-                    </li>
-                    <li className="ml-5">
                         <p className="text-2xl font-semibold">Cinema Website</p>
-                        <p className="text-lg">I have been working on this MERN project for last 2 weeks. It is a cinema website where users can login and book tickets online. Admin panel allows admin to control the data, analyse bookings and add new movies. Using distributor login, movie owners can manage their earnings and take insights.</p>
+                        <p className="text-lg">This is a MERN project cinema website where users can login and book tickets online. Admin module allows admins to add or remove movies and manage ticket bookings. Movie providers can login and see movie performance and current bookings. Normal user can log in and book ticket with online payment and cash payment option.</p>
                     </li>
+                    <li className="ml-5">
+                        <p className="text-2xl font-semibold">E-commerce Platform</p>
+                        <p className="text-lg">I utilized Microsoft ASP .NET, SQL server and Bootstrap5 to develop this platform. Admin can register new products with specified categories and also modify or remove them. Customer can register with basic details and place the order with add to cart feature. Every user login is managed using session. </p>
+                    </li>
+                    <li className="ml-5">
+                        <p className="text-2xl font-semibold">Englsih Dictionary</p>
+                        <p className="text-lg">This dictionary has been created using Next Js 15. Admin can add, modify and remove words and their meanings. All words data are stored in MongoDB cluster. Other features include dynamic routing, Authentication and MongoDB search functionality. </p>
+                    </li>
+                    <li className="ml-5">
+                        <p className="text-2xl font-semibold">AI/ML</p>
+                        <p className="text-lg">Prediction models based on past data, Probabilistic Inference models, Face Recognition, Hand written digits recognition. Created using Numpy, SciKit-Learn, MatplotLib, Tensorflow, PIL, OpenCV, Face_recognition, etc. </p>
+                    </li>
+
                 </ul>
             </section>
 
@@ -89,6 +90,9 @@ const Resume = () => {
             <section className="mx-auto mt-5 w-[95vw] md:w-[90vw] 2xl:max-w-[1300px]">
                 <p className="w-full bg-black text-white p-2 font-semibold text-2xl rounded-md">Internship and Certification</p>
                 <ul className="list-disc space-y-2.5 mt-2">
+                    <li className="ml-5">
+                        <p className="text-lg">Full Stack Developer Intern - Bookstaken (March - May-2025) </p>
+                    </li>
                     <li className="ml-5">
                         <p className="text-lg">Web Development Internship - Octanet PVT LTD (May-Jun 2024)</p>
                     </li>
@@ -98,9 +102,7 @@ const Resume = () => {
                     <li className="ml-5">
                         <p className="text-lg">Artificial Intelligence Internship - TEACHNOOK (Jul-Aug 2022)</p>
                     </li>
-                    <li className="ml-5">
-                        <p className="text-lg">Full Stack Developer Intern - Bookstaken (March 2025 - Ongoing) </p>
-                    </li>
+
                 </ul>
             </section>
 
@@ -121,7 +123,7 @@ const Resume = () => {
             </section>
 
             <section className="mx-auto mt-5 w-[95vw] md:w-[90vw] 2xl:max-w-[1300px] mb-10">
-                <p className="w-full bg-black text-white p-2 font-semibold text-2xl rounded-md text-center">Thanks for visiting my resume.</p>  
+                <p className="w-full bg-black text-white p-2 font-semibold text-2xl rounded-md text-center">Thanks for visiting my resume.</p>
             </section>
         </div>
     )
